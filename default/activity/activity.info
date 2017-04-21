@@ -1,0 +1,7 @@
+[Activity]
+name = JAMActivityFlash
+activity_version = 1
+service_name = org.laptop.JAMActivityFlash1
+class = JAMActivityFlash.JAMActivityFlash
+icon = JAMActivityFlash
+show_launcher = yes

@@ -1,0 +1,9 @@
+[Activity]
+name = JAMFlash
+activity_version = 1
+license = GPLv3
+bundle_id = org.ceibaljam.JAMFlash
+exec = sugar-activity activity.JAMFlash
+icon = icon
+show_launcher = yes
+summary = Una simple actividad para empaquetar flash.

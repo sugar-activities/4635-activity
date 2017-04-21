@@ -1,0 +1,10 @@
+import gtk
+glade = gtk.Builder()
+glade.add_from_file('interfaz.glade')
+c = glade.get_object('vbox1')
+d = gtk.Window()
+d.connect('destroy', lambda x: exit())
+d.set_size_request(400, 400)
+d.add(c)
+d.show_all()
+gtk.main()
